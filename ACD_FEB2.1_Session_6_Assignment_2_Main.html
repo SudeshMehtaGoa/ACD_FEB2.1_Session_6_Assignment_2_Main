@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Greatest of three numbers</title>
+   </head>
+    <body>
+        <div>
+            <p>Greatest of three numbers</p>
+            <!-- Input first number -->
+            <label id="lblFirstNumber" style ="margin:5px;">Enter First Number</label>
+            <input id="txtFirstNumber" type"text" style ="margin:5px;"></input>
+            <br>
+            
+            <!-- Input second number -->
+            <label id="lblSecondNumber" style ="margin:5px;">Enter Second Number</label>
+            <input id="txtSecondNumber" type"text" style ="margin:5px;"></input>
+            <br>
+
+             <!-- Input third number -->
+            <label id="lblthirdNumber" style ="margin:5px;">Enter third Number</label>
+            <input id="txtThirdNumber" type"text" style ="margin:5px;"></input>
+            <br>
+            
+            <!-- onclick event prints greatest of three numbers in the console & also in label on html form-->
+            <button onclick="greatestOfThreeNumbers()" style ="margin:5px;">Find Greatest</button>
+            <br>
+            <label id="lblGreatestNumber" style ="margin:5px;"></label>
+        </div>
+
+        <!-- Inserting external JS file after rendering html-->
+        <script type="text/javascript" src="script.js"></script>  
+    </body>
+</html>
+
